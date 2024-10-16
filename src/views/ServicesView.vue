@@ -101,7 +101,6 @@ const services = [
 .icon-container img {
   width: 80px;
   height: auto;
-  fill: var(--primary-color);
 }
 .service-details {
   text-align: center;
