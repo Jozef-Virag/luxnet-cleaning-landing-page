@@ -42,7 +42,7 @@
             </tr>
             <tr>
               <td>Kreslo</td>
-              <td>25€</td>
+              <td>20€</td>
             </tr>
             <tr>
               <td>Taburetka</td>
@@ -50,7 +50,7 @@
             </tr>
             <tr>
               <td>Stolička</td>
-              <td>10€</td>
+              <td>3,50€</td>
             </tr>
             <tr>
               <td>Vankúš</td>
@@ -70,6 +70,12 @@
             </tr>
             </tbody>
           </table>
+
+          <div class="text-center mt-4">
+            <a href="/cennik" class="btn btn-primary" :style="{ background: themeColor, borderColor: themeColor }">
+              Späť na ponuku služieb
+            </a>
+          </div>
         </div>
       </div>
     </div>

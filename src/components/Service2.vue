@@ -44,7 +44,7 @@ const items = [
 
 <template>
   <div class="untree_co-section bg-light" id="sluzby">
-    <div class="container">
+    <div class="container mx-10">
       <div class="row justify-content-between">
         <div class="col-lg-5 order-lg-2 js-custom-dots">
           <a

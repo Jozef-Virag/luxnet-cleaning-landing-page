@@ -7,7 +7,7 @@ const buttonPricing = "Cenník";
 </script>
 
 <template>
-  <div class="untree_co-hero" id="home-section">
+  <div class="untree_co-hero" id="domov">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-12">

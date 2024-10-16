@@ -11,7 +11,7 @@ const designation = "Zákazníčka";
 </script>
 
 <template>
-  <div class="untree_co-section">
+  <div class="untree_co-section service1">
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-lg-4">

@@ -1,7 +1,6 @@
 <template>
   <div class="untree_co-section bg-light">
     <div class="container">
-      <!-- Úvodný nadpis a popis -->
       <div class="row">
         <div class="col-12 text-center">
           <h1 :style="{ color: themeColor }" class="heading mt-5">Postavebné Upratovanie</h1>
@@ -11,7 +10,6 @@
         </div>
       </div>
 
-      <!-- Karty s výhodami -->
       <div class="row justify-content-center mt-5">
         <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
           <div class="card h-100">
@@ -47,7 +45,6 @@
         </div>
       </div>
 
-      <!-- Zoznam ponúkaných služieb -->
       <div class="row justify-content-center mt-4">
         <div class="col-md-8">
           <p class="my-4 text-center disclaimer">
@@ -64,7 +61,6 @@
         </div>
       </div>
 
-      <!-- Sekcia Prečo si vybrať nás -->
       <div class="row justify-content-center mt-5">
         <div class="col-md-8 text-center">
           <h2 class="mb-4">Prečo si vybrať práve nás?</h2>
@@ -75,6 +71,12 @@
             Či už potrebujete upratať novostavbu alebo zrekonštruovaný priestor, naši odborníci sa postarajú o to, aby váš nový priestor bol pripravený na používanie bez akejkoľvek stopy po stavebných prácach.
           </p>
         </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="/cennik" class="btn btn-primary" :style="{ background: themeColor, borderColor: themeColor }">
+          Späť na ponuku služieb
+        </a>
       </div>
     </div>
   </div>

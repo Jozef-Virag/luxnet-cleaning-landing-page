@@ -74,6 +74,11 @@
           </p>
         </div>
       </div>
+      <div class="text-center mt-4">
+        <a href="/cennik" class="btn btn-primary" :style="{ background: themeColor, borderColor: themeColor }">
+          Späť na ponuku služieb
+        </a>
+      </div>
     </div>
   </div>
 </template>

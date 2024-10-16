@@ -1,12 +1,16 @@
 <template>
-  <Hero />
-  <Service1 />
-  <Service2 />
-  <Pricing />
-  <Advantage />
-  <!--  <Testimonial />-->
-  <About />
-  <Contact />
+  <div class="mx-10">
+    <Hero/>
+    <Service1/>
+  </div>
+    <Service2/>
+  <div class="mx-10">
+    <Pricing/>
+    <Advantage/>
+    <!--  <Testimonial />-->
+    <About/>
+    <Contact/>
+  </div>
 </template>
 
 <script setup>

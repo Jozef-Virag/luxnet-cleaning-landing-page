@@ -5,11 +5,11 @@ import { siteName } from "../data/items";
   <nav class="site-nav dark js-site-navbar mb-5 site-navbar-target">
     <div class="container">
       <div class="site-navigation">
-        <a class="logo m-0 float-left text-3xl" href="/#home">{{ siteName }}</a>
+        <a class="logo m-0 float-left text-3xl" href="/">{{ siteName }}</a>
         <div class="flex justify-center">
           <ul class="js-clone-nav d-none d-lg-inline-block site-menu float-left ml-10 text-2xl">
             <li class="active">
-              <a class="nav-link" href="#home-section">Domov</a>
+              <a class="nav-link" href="/#domov">Domov</a>
             </li>
             <li><a class="nav-link" href="/#sluzby">Služby</a></li>
             <li><a class="nav-link" href="/#cennik">Cenník</a></li>

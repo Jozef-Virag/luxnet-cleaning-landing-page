@@ -56,7 +56,7 @@ const advantages = [
               <p>{{ advantages[0].des }}</p>
               <p>
                 <a
-                  href="#"
+                  href="/cennik"
                   class="read-more"
                   :style="[{ color: themeColor }]"
                   >{{ buttonLearnMore }}</a
@@ -91,7 +91,7 @@ const advantages = [
               <p>{{ advantages[1].des }}</p>
               <p>
                 <a
-                  href="#"
+                  href="/cennik"
                   class="read-more"
                   :style="[{ color: themeColor }]"
                   >{{ buttonLearnMore }}</a
@@ -126,7 +126,7 @@ const advantages = [
               <p>{{ advantages[2].des }}</p>
               <p>
                 <a
-                  href="/#kontakt"
+                  href="/cennik"
                   class="read-more"
                   :style="[{ color: themeColor }]"
                   >{{ buttonLearnMore }}</a
@@ -157,7 +157,7 @@ const advantages = [
               <p>{{ advantages[3].des }}</p>
               <p>
                 <a
-                  href="#"
+                  href="/cennik"
                   class="read-more"
                   :style="[{ color: themeColor }]"
                   >{{ buttonLearnMore }}</a

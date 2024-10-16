@@ -25,8 +25,12 @@
             </thead>
             <tbody>
             <tr>
-              <td>Žalúzie</td>
+              <td>Žalúzie vnútorné</td>
               <td>2,00 € / ks</td>
+            </tr>
+            <tr>
+              <td>Žalúzie vonkajšie</td>
+              <td>5,00 € / ks</td>
             </tr>
             <tr>
               <td>Jednokrídlové okno</td>
@@ -34,30 +38,35 @@
             </tr>
             <tr>
               <td>Dvojkrídlové okno</td>
-              <td>8,00 € / ks</td>
+              <td>11,00 € / ks</td>
             </tr>
             <tr>
               <td>Trojkrídlové okno</td>
-              <td>9,00 € / ks</td>
+              <td>15,00 € / ks</td>
+            </tr>
+            <tr>
+              <td>Štvorkrídlové okno</td>
+              <td>18,00 € / ks</td>
             </tr>
             <tr>
               <td>Balkónové okno</td>
-              <td>10,00 € / ks</td>
+              <td>20,00 € / ks</td>
             </tr>
             <tr>
               <td>Francúzske okno</td>
               <td>20,00 € / ks</td>
             </tr>
             <tr>
-              <td>Umývanie okien – nadmerné znečistenie (stavebné práce)</td>
-              <td>20,00 € / ks</td>
-            </tr>
-            <tr>
               <td>Ostatné (výklady, sklené tabule, atď.)</td>
-              <td>Na základe cenovej ponuky</td>
+              <td>Na základe dohody</td>
             </tr>
             </tbody>
           </table>
+          <div class="text-center mt-4">
+            <a href="/cennik" class="btn btn-primary" :style="{ background: themeColor, borderColor: themeColor }">
+              Späť na ponuku služieb
+            </a>
+          </div>
         </div>
       </div>
     </div>
