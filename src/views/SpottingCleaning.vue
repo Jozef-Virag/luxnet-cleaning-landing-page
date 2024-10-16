@@ -3,58 +3,70 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h1 :style="{ color: themeColor }" class="heading mt-5">Umývanie okien</h1>
+          <h1 :style="{ color: themeColor }" class="heading mt-5">Tepovanie</h1>
           <p class="sub-heading mt-4">
-            Cenník našich služieb umývania okien. Vyberte si službu a zistite viac o možnostiach umývania a čistenia
-            sklenených plôch.
+            Naša profesionálna služba tepovania je určená na dokonalé vyčistenie nábytku a kobercov. Zameriavame sa na poskytovanie vysokej kvality a spokojných zákazníkov. Naše služby sú prispôsobené vašim potrebám.
           </p>
         </div>
       </div>
 
-      <div class="row justify-content-center mt-5">
-        <div class="col-md-8">
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-10">
           <p class="my-4 text-center disclaimer">
             <em>Uvedené ceny sú orientačné. Presná cena bude stanovená na základe obhliadky priestoru a konkrétnych požiadaviek. Pre viac informácií nás neváhajte kontaktovať.</em>
           </p>
+
           <table class="table table-bordered table-auto">
             <thead>
             <tr>
-              <th>Úkon</th>
-              <th>Cena</th>
+              <th>Typ služby</th>
+              <th>Jednotková Cena</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-              <td>Žalúzie</td>
-              <td>2,00 € / ks</td>
+              <td>Trojsedačka</td>
+              <td>50€</td>
             </tr>
             <tr>
-              <td>Jednokrídlové okno</td>
-              <td>7,00 € / ks</td>
+              <td>Rohová sedačka</td>
+              <td>55€</td>
             </tr>
             <tr>
-              <td>Dvojkrídlové okno</td>
-              <td>8,00 € / ks</td>
+              <td>Dvojsedačka</td>
+              <td>40€</td>
             </tr>
             <tr>
-              <td>Trojkrídlové okno</td>
-              <td>9,00 € / ks</td>
+              <td>Účková sedačka</td>
+              <td>75€</td>
             </tr>
             <tr>
-              <td>Balkónové okno</td>
-              <td>10,00 € / ks</td>
+              <td>Kreslo</td>
+              <td>25€</td>
             </tr>
             <tr>
-              <td>Francúzske okno</td>
-              <td>20,00 € / ks</td>
+              <td>Taburetka</td>
+              <td>15€</td>
             </tr>
             <tr>
-              <td>Umývanie okien – nadmerné znečistenie (stavebné práce)</td>
-              <td>20,00 € / ks</td>
+              <td>Stolička</td>
+              <td>10€</td>
             </tr>
             <tr>
-              <td>Ostatné (výklady, sklené tabule, atď.)</td>
-              <td>Na základe cenovej ponuky</td>
+              <td>Vankúš</td>
+              <td>6€</td>
+            </tr>
+            <tr>
+              <td>Matrac 90cm x 220cm</td>
+              <td>25€</td>
+            </tr>
+            <tr>
+              <td>Koberec - krátky vlas</td>
+              <td>od 15€</td>
+            </tr>
+            <tr>
+              <td>Koberec - dlhý vlas</td>
+              <td>od 25€</td>
             </tr>
             </tbody>
           </table>
@@ -69,7 +81,6 @@ import { themeColor } from "../data/items";
 </script>
 
 <style scoped>
-
 .heading {
   font-size: 2.5rem;
   font-weight: bold;
@@ -104,4 +115,8 @@ import { themeColor } from "../data/items";
   transition: background-color 0.3s ease;
 }
 
+.disclaimer {
+  color: #777;
+  font-size: 0.9rem;
+}
 </style>

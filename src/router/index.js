@@ -3,6 +3,10 @@ import Home from '../views/HomeView.vue';
 import Services from '../views/ServicesView.vue';
 import Cleaning from '../views/CleaningView.vue';
 import WindowCleaning from "../views/WindowCleaning.vue";
+import CompanyCleaning from "../views/CompanyCleaning.vue";
+import ConstructionCleaning from "../views/ConstructionCleaning.vue";
+import ScrubberCleaning from "../views/ScrubberCleaning.vue";
+import SpottingCleaning from "../views/SpottingCleaning.vue";
 const routes = [
     {
         path: "/",
@@ -19,6 +23,22 @@ const routes = [
     {
         path: "/umyvanie-okien",
         component: WindowCleaning,
+    },
+    {
+        path: "/firemne-upratovanie",
+        component: CompanyCleaning,
+    },
+    {
+        path: "/postavebne-upratovanie",
+        component: ConstructionCleaning,
+    },
+    {
+        path: "/strojove-cistenie",
+        component: ScrubberCleaning,
+    },
+    {
+        path: "/tepovanie",
+        component: SpottingCleaning,
     },
 ];
 const router = createRouter({

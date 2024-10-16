@@ -2,10 +2,8 @@
 import cleaningPhoto from "/images/cistenie.jpg";
 import windowsPhoto from "/images/okna.jpeg";
 import afterBuilder from "/images/postavebne.jpg";
-import moppingPhoto from "/images/mopovanie.jpg";
 import officePhoto from "/images/kancelaria.jpg";
 
-import mopIcon from "/images/icon/mop.png";
 import constructionIcon from "/images/icon/construction.png";
 import windowIcon from "/images/icon/window.png";
 import cleaningIcon from "/images/icon/cleaning.png";

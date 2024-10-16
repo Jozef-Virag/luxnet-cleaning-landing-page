@@ -50,7 +50,7 @@ const services = [
     <div class="container">
       <div class="row pricing-title">
         <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="0">
-          <h2 class="heading">{{ heading }}</h2>
+          <h1 :style="{ color: themeColor }" class="heading mt-5">{{ heading }}</h1>
           <p>{{ subHeading }}</p>
         </div>
       </div>

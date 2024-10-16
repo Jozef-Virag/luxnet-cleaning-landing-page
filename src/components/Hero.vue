@@ -37,7 +37,7 @@ const buttonPricing = "Cenník";
                   potrebám a zaručia dokonalú čistotu.
                 </p>
               </div>
-              <p data-aos="fade-up" data-aos-delay="100">
+              <div class="d-flex justify-content-start" data-aos="fade-up" data-aos-delay="100">
                 <a
                     href="#sluzby"
                     class="btn btn-primary smoothscroll"
@@ -53,7 +53,7 @@ const buttonPricing = "Cenník";
                 >
                   {{ buttonPricing }}
                 </a>
-              </p>
+              </div>
             </div>
           </div>
         </div>
@@ -65,5 +65,10 @@ const buttonPricing = "Cenník";
 <style scoped>
 .pricing:hover {
   color: #fff !important;
+}
+
+.btn-primary,
+.btn-outline-primary {
+  height: 50px;
 }
 </style>

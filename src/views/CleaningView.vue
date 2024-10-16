@@ -3,7 +3,7 @@
     <div class="container ">
       <div class="row">
         <div class="col-12 text-center">
-          <h1 :style="{ color: themeColor }" class="heading">Čistenie</h1>
+          <h1 :style="{ color: themeColor }" class="heading mt-5">Čistenie</h1>
           <p class="sub-heading mt-4">
             Naša profesionálna služba čistenia je určená na dokonalé vyčistenie priestorov od prachu, nečistôt a
             nečistotných škvŕn. Zameriavame sa na poskytovanie vysokej kvality a spokojných zákazníkov. Naše čistenie
